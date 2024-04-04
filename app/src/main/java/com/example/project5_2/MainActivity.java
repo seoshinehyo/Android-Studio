@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity { // 테이블레이아웃 사용
     EditText edit1, edit2;
     Button btnAdd, btnSub, btnMul, btnDiv;
     TextView textResult;
@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
 
         btnAdd.setOnTouchListener(new View.OnTouchListener() {
             @Override
