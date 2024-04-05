@@ -3,11 +3,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.project4_1"
     compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.project4_1"
+=======
+    namespace = "com.example.project5_2"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.project5_2"
+>>>>>>> 7ed9b5377375e4b908c144c25cf649ee7415dc85
         minSdk = 21
         targetSdk = 34
         versionCode = 1
